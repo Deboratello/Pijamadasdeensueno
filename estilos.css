@@ -133,7 +133,7 @@ article{
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(4 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 200px 200px 200px; 
     padding: 30px;
     grid-gap: 30px;
@@ -312,7 +312,6 @@ a{
     #btn-menu:checked ~ .barra {
         margin: 0;
     }
-
     .galeria {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -336,9 +335,8 @@ a{
         margin-left: 50%;
     }
 }
-
     
-@media only screen and (max-with:599px) and (min-width:0px) {
+@media only screen and (max-width:599px) and (min-width:300px) {
 
     .header label {
         display: block;
@@ -358,14 +356,15 @@ a{
     }
     #btn-menu:checked ~ .barra {
         margin: 0;
-    }    
-
+    } 
     .galeria {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(12 200px);
-        padding: 10px;
-        grid-gap: 10px;
+        width: 100%;
+        height: auto;
+        grid-template-columns:repeat(1, 1fr);
+        grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+        padding: 20px;
+        grid-gap: 20px;
     }
     .formulario{
         width: 100%
