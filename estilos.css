@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .header{
     width: 100%;
@@ -37,6 +38,13 @@
 }
 .barra li:hover {
     background: rgba(0, 0, 0, 0.3)
+}
+.barra ul li a{
+    display: block;
+    text-decoration: none;
+    color: #232f1d;
+    padding: 15px 20px;
+    font-family: eigerdals;
 }
 main{
         background-image: url(imagenes/Portada.jpg);
@@ -165,24 +173,14 @@ a href{
     padding-left: 15px;
     padding-top: 15px; 
     }
-.PijamaParty{
+.Servicio{
     width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 300px; 
+    grid-template-rows: 300px 300; 
     padding: 30px;
     grid-gap: 30px;
-}
-.imagenPijamaParty{
-    background-image: url(./imagenes/pijamada.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.imagenPijamadaAmanecer{
-    background-image: url(./imagenes/pijamada3.jpg);
-    background-size: cover;
-    background-position: center;
 }
 .galeria{
     width: 100%;
@@ -191,7 +189,7 @@ a href{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 200px 200px 200px; 
     padding: 30px;
-    grid-gap: 30px;    
+    grid-gap: 30px;
 }
 .item:hover{
     transform: scale(1.05);
@@ -296,11 +294,6 @@ footer i{
 a{
     color:#232f1d
 } 
-p{
-    color:#232f1d;
-    font-family: eigerdals;
-    font-size: 15pt;
-}
 
  @media only screen and (max-width:1200) and (min-width:1025) {
     
