@@ -64,23 +64,6 @@ ul li{
     color:#ef7a75;
     font-family: eigerdals;
 }
-.texto{
-    text-align: justify;
-    height: 200px;
-    width: 250px;
-    padding: 20px;
-    margin-left: 10%;
-}
-.foto{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-}
-.foto:hover{
-    transform: scale(1.05);
-    transition-duration: 1s;
-    box-shadow: 0 0 5px #333;
-}
 .listado{
     color: #839080;
     font-family: eigerdals;
@@ -99,11 +82,6 @@ label{
     font-size: 13px;
     margin-left: 10px
 }
-p{
-    font-family: eigerdals;
-    font-size: 13px;
-    margin-left: 10px;
-}
 th{
     color:#ef7a75;
     font-family: eigerdals;
@@ -120,14 +98,33 @@ a href{
     color: #ef7a75;
     font-family: Duper;
 }
-textarea{
-    resize: none;
+.quienessomos{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px; 
+    padding: 30px;
+    grid-gap: 30px;
 }
-article{
-        color:#232f1d;
-        font-family: eigerdals;
-        font-size: 12px;
-        margin-left: 15px;
+.texto{
+    color:#232f1d;
+    font-family: eigerdals;
+    font-size: 15px;
+    position: center;
+    text-align: justify;
+}
+.foto{
+    width:100%;
+    background-image: url(./imagenes/presentación-07.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 15px;
+}
+.foto:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+    box-shadow: 0 0 5px #333;
 }
 .galeria{
     width: 100%;
@@ -211,10 +208,6 @@ article{
 .formulario{
     margin-left: 10%;
 }
-
-.cuerpo{
-    min-height: auto;
-}
 footer{
     background-color: #839080;
     height: 110px;
@@ -222,7 +215,6 @@ footer{
     padding: 10px;
     color: white;
 }
-
 footer img{
     float:right;
     height: 120px;
@@ -257,8 +249,7 @@ a{
         grid-template-rows: 200px 200px 200px;
         padding: 30px;
         grid-gap: 30px;
-    }
-    
+    }    
  }
 
  @media only screen and (max-width: 1024px) and (min-width:768px) {
@@ -281,6 +272,19 @@ a{
     }
     #btn-menu:checked ~ .barra {
         margin: 0;
+    }
+    .quienessomos{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 180px 300px; 
+        padding: 20px;
+        grid-gap: 20px;
+    }
+    .foto{
+        background-size:60%;
+        background-repeat: no-repeat;
     }
     .galeria {
         display: grid;
@@ -312,6 +316,19 @@ a{
     #btn-menu:checked ~ .barra {
         margin: 0;
     }
+    .quienessomos{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 180px 300px; 
+        padding: 20px;
+        grid-gap: 15px;
+    }
+    .foto{
+        background-size:80%;
+        background-repeat: no-repeat;
+    }
     .galeria {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -321,19 +338,7 @@ a{
     }
     .formulario{
         width: 100%
-    }
-    .foto{
-        position: absolute;
-        top: 50%;
-        text-align:center
-    }
-    .texto{
-        text-align: justify;
-        height: 200px;
-        width: 250px;
-        padding: 20px;
-        margin-left: 50%;
-    }
+    }    
 }
     
 @media only screen and (max-width:599px) and (min-width:300px) {
@@ -357,6 +362,19 @@ a{
     #btn-menu:checked ~ .barra {
         margin: 0;
     } 
+    .quienessomos{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 180px 300px; 
+        padding: 20px;
+        grid-gap: 10px;
+    }
+    .foto{
+        background-size:100%;
+        background-repeat: no-repeat;
+    }
     .galeria {
         display: grid;
         width: 100%;
@@ -368,18 +386,5 @@ a{
     }
     .formulario{
         width: 100%
-    }
-    .foto{
-        position: absolute;
-        text-align:center;
-        margin-left: 50%;
-        margin-top: 70%;
-    }
-    .texto{
-        text-align: justify;
-        height: 200px;
-        width: 250px;
-        padding: 20px;
-        margin-left: 50%;
     }
 }
