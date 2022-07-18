@@ -178,7 +178,7 @@ a href{
     height: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 300px 300; 
+    grid-template-rows: 300px 100px; 
     padding: 30px;
     grid-gap: 30px;
 }
@@ -291,9 +291,6 @@ footer i{
     padding-top: 5px;
     color: white;
 }
-a{
-    color:#232f1d
-} 
 
  @media only screen and (max-width:1200) and (min-width:1025) {
     
