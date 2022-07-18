@@ -164,7 +164,7 @@ a href{
     background-position: center;
     padding-left: 15px;
     padding-top: 15px; 
-}
+    }
 .PijamaParty{
     width: 100%;
     height: auto;
@@ -176,6 +176,11 @@ a href{
 }
 .imagenPijamaParty{
     background-image: url(./imagenes/pijamada.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.imagenPijamadaAmanecer{
+    background-image: url(./imagenes/pijamada3.jpg);
     background-size: cover;
     background-position: center;
 }
