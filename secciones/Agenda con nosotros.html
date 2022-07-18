@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"  />
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="shortcut icon" href="../imagenes/logo.jpg">
+    <title>Agenda con nosotros</title>
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><i class="fa-solid fa-bars"></i></label>
+        <nav class="barra">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="Quienes somos.html">Quiénes somos</a></li>
+                <li><a href="Nuestros servicios.html">Nuestros servicios</a></li>
+                <li><a href="Agenda con nosotros.html">Agenda con nosotros</a></li>
+                <li><a href="Galeria de imagenes.html">Galería de imágenes</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="formulario">
+    <h1>Agenda con nosotros</h1>
+    <p>Por favor, completa los datos de tu solicitud para coordinar tu próxima pijamada:</p><br>
+    <form action="" method="post" enctype="text/plain">
+            <label for="nombre">Ingrese su nombre completo</label>
+            <input name="nombre" type="text" required><br>
+            <label for="correo">Ingrese su correo</label>
+            <input name="correo" type="email" required><br>
+            <label for="fecha">Selecciona una fecha</label>
+            <input name="fecha" type="date" required><br>
+            <label for="hora">Selecciona una hora</label>
+            <input name="hora" type="time" required><br>
+        
+            <label for="Tipo de pijamada">Tipo de pijamada</label>
+            <select name="tipo de pijamada">
+                <option value="Pijamada">Pijamada</option>
+                <option value="Pijamada Amanecer">Pijamada Amanecer</option>
+                <option value="Cumpleaños">Cumpleaños</option>
+                <option value="Pijamada de ensueño">Pijamada de ensueño</option>
+            </select>
+        <br>
+        <label for="cantidad">Cantidad de participantes</label>
+        <input name="cantidad" type="number" min="0" max="30"  required><br><br>
+
+<article>
+    <h2>Condiciones de la reserva</h2>
+    <nav class="listado">
+    <ol>
+        <li>Hacemos pijamadas a domicilio, abarcando las comunas de Melipilla, Peñaflor, Talagante y El Monte, en la Región Metropolitana.</li>
+         <li>Una vez enviado el formulario te haremos llegar el presupuesto a tu correo, para reservar, requerimos un abono del 50% dentro de las 24 horas después de enviado el presupuesto.</li>
+        <li>Aceptamos transferencias bancarias o pago vía paypal, los datos serán enviados en el correo antes mencionado.</li>
+        <li>Si requieres cancelar el servicio, lamentablemente no podremos hacer devolución del abono.</li>
+    </ol>
+    </nav>
+</article><br>
+
+    <input type="checkbox" name="acepta" value="1"/>
+    <p>Declaro haber leído y aceptado las condiciones de la reserva.</p><br>
+    <input type="submit">
+    <input type="reset">
+    </form><br><br>
+    </section>
+    <footer>
+        <img src="../imagenes/logo blanco.png" alt="logo_footer">
+        <p>Author: Debora Tello<br>
+            Todos los derechos reservados<br>
+                <a href="../index.html">Volver a Inicio</a>
+        </p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </div>   
+    </footer>
+</body>
+</html>
