@@ -127,8 +127,6 @@ a href{
     transition-duration: 1s;
     box-shadow: 0 0 5px #333;
 }
-<<<<<<< HEAD
-=======
 .Nuestrosservicios{
     width: 100%;
     height: auto;
@@ -184,20 +182,6 @@ a href{
     padding: 30px;
     grid-gap: 30px;
 }
-<<<<<<< HEAD
-.imagenPijamaParty{
-    background-image: url(./imagenes/pijamada.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.imagenPijamadaAmanecer{
-    background-image: url(./imagenes/pijamada3.jpg);
-    background-size: cover;
-    background-position: center;
-}
->>>>>>> cambios-nuestrosservicios
-=======
->>>>>>> cambios-nuestrosservicios
 .galeria{
     width: 100%;
     height: auto;
@@ -307,13 +291,6 @@ footer i{
     padding-top: 5px;
     color: white;
 }
-<<<<<<< HEAD
-a{
-    color:#232f1d
-} 
-=======
->>>>>>> cambios-nuestrosservicios
-
  @media only screen and (max-width:1200) and (min-width:1025) {
     
     .galeria{
