@@ -175,15 +175,16 @@ a href{
     padding-left: 15px;
     padding-top: 15px; 
     }
-.PijamaParty{
+.Servicio{
     width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 300px; 
+    grid-template-rows: 300px 100px; 
     padding: 30px;
     grid-gap: 30px;
 }
+<<<<<<< HEAD
 .imagenPijamaParty{
     background-image: url(./imagenes/pijamada.jpg);
     background-size: cover;
@@ -194,6 +195,8 @@ a href{
     background-size: cover;
     background-position: center;
 }
+>>>>>>> cambios-nuestrosservicios
+=======
 >>>>>>> cambios-nuestrosservicios
 .galeria{
     width: 100%;
@@ -304,9 +307,12 @@ footer i{
     padding-top: 5px;
     color: white;
 }
+<<<<<<< HEAD
 a{
     color:#232f1d
 } 
+=======
+>>>>>>> cambios-nuestrosservicios
 
  @media only screen and (max-width:1200) and (min-width:1025) {
     
